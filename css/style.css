@@ -11,8 +11,14 @@ body {
 }
 
 .jumbo {
-    height: 45em;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbo .content {
+    padding-top: 60%;
+    padding-bottom: 10%;
+    color: white;
 }
