@@ -27,8 +27,17 @@ body {
     color: white;
 }
 
-.jumbo-bot-container {
+.my-container {
     width: 95%;
     margin: 0 auto;
 }
+
+.img-container:hover {
+    border: 1px solid blue;
+    border-radius: 0.5rem;
+    padding: 0.2em;
+    cursor: pointer;
+}
+
+
 
