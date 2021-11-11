@@ -2,6 +2,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.rounded-5 {
+    border-radius: 0.5rem!important;
+}
+
 .nav-top svg {
     width: 4em;
 }
@@ -22,3 +26,9 @@ body {
     padding-bottom: 10%;
     color: white;
 }
+
+.jumbo-bot-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
