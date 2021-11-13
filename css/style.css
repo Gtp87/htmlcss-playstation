@@ -33,10 +33,15 @@ body {
     margin: 0 auto;
 }
 
-.img-container.jumbo-bot-img-cont:hover {
+.img-container.jumbo-bot-img-cont.selected {
     border: 1px solid blue;
     border-radius: 0.5rem;
     padding: 0.2em;
+}
+
+.img-container.jumbo-bot-img-cont:hover {
+    transform: translate(0, -10%);
+    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -75,3 +80,30 @@ body {
     background-color: #161C3B;
     color: white;
 }
+
+footer {
+    background-color: #00439C;
+    color: white;
+}
+
+footer .logo-ps,
+footer .logo-sie {
+    width: 100px;
+    margin-bottom: 2em;
+}
+
+footer .list-unstyled {
+    line-height: 2.5em;
+}
+
+footer .list-unstyled a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .playstation5 .img-container img {
+        width: 50%;
+    }
+}
+
