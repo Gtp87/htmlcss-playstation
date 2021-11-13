@@ -6,6 +6,7 @@ body {
     border-radius: 0.5rem!important;
 }
 
+
 .nav-top svg {
     width: 4em;
 }
@@ -51,4 +52,12 @@ body {
 
 .playstation5 .img-container.selected {
     border-bottom: 2px solid blue;
+}
+
+.advertisement {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
 }
