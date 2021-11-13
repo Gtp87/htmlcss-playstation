@@ -45,6 +45,12 @@ body {
     cursor: pointer;
 }
 
+.jumbotron button:hover,
+.advertisement button:hover {
+    box-shadow: 0 0 0 2px rgb(220,53,69);
+    border: 1px solid black;
+}
+
 .playstation5 .img-container img {
     width: 100%;
     opacity: 0.7;
@@ -57,6 +63,12 @@ body {
 
 .playstation5 .img-container.selected {
     border-bottom: 2px solid blue;
+}
+
+.playstation5 button:hover,
+.explore-playstation4 button:hover {
+    box-shadow: 0 0 0 2px rgb(0,128,255);
+    border: 1px solid white;
 }
 
 .advertisement {
@@ -74,6 +86,12 @@ body {
 
 .playstation-plus {
     background-color: #BEBCBB;
+}
+
+.playstation-plus button:hover,
+.playstation-now button:hover {
+    box-shadow: 0 0 0 2px white;
+    border: 1px solid black;
 }
 
 .playstation-now {
@@ -107,3 +125,8 @@ footer .list-unstyled a {
     }
 }
 
+@media screen and (max-width: 991px) {
+    .navbar-collapse .btn {
+        width: 400px;
+    }
+}
